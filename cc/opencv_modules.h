@@ -71,3 +71,5 @@
 #endif
 #endif
 #endif
+
+#undef HAVE_OPENCV_TRACKING
