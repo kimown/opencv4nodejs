@@ -134,8 +134,8 @@ NAN_MODULE_INIT(init) {
 	Text::Init(target);
 #endif
 #ifdef HAVE_OPENCV_TRACKING
-	Nan::Set(modules, FF::newString("tracking"), Nan::New(true));
-	Tracking::Init(target);
+//	Nan::Set(modules, FF::newString("tracking"), Nan::New(true));
+//	Tracking::Init(target);
 #endif
 #ifdef HAVE_OPENCV_VIDEO
 	Nan::Set(modules, FF::newString("video"), Nan::New(true));
