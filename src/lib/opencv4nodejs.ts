@@ -1,3 +1,4 @@
+//@ts-nocheck
 import path from 'node:path';
 import { type OpenCVBuildEnvParams } from '@u4/opencv-build';
 import promisify from './promisify.js';
